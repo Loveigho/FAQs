@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+body {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background:hsl(292, 16%, 49%); 
+     font-family: "Work Sans", sans-serif;
+     font-weight: 400;
+font-size: 1rem;
+
+    }
+
+.btn {
+display: flex;
+align-items: center;
+justify-content: center;
+ border: none;
+display: block;
+cursor: pointer;
+        
+    }
+
+    header {
+
+        display: flex;
+        gap: 1rem;
+    }
+
+    header h2{
+
+        font-size: 2rem;
+    }
+
+.main-info {
+
+        display: none;
+        padding: 20px;
+    }
+
+.show .main-info{
+
+    display: block;
+} 
+
+ .btn-minus{
+
+    display: none;
+ }   
+
+ .show .btn-minus{
+
+    display: inline;
+ }
+
+ .show .btn-plus{
+
+    display: none;
+ }
+
+.container {
+
+    padding: 1rem;
+}
+
+.card {
+
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.question-text {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(292, 16%, 49%);
+}
+
+.question-text p {
+
+font-size: 1.2rem;
+font-weight: 600;
+padding: 1rem ;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .card {
+
+        width: 450px;
+    }
+
+    
+
+}
+    
+
